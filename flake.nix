@@ -70,6 +70,9 @@
           # Python
           python3
           _1password-cli
+          tailscale
+          rsync
+          gawk
         ];
 
         linters = with pkgs; [
