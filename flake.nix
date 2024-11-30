@@ -58,7 +58,7 @@
         commonPackages = with pkgs; [
           # System tools
           nixfmt-rfc-style
-          unixtools.nettools
+          unixtools.ping
           gnumake
           openssh
           bash
