@@ -69,6 +69,7 @@
           rsync
           # Python
           python3
+          _1password-cli
         ];
 
         linters = with pkgs; [
