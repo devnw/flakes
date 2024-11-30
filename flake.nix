@@ -58,7 +58,11 @@
         commonPackages = with pkgs; [
           # System tools
           nixfmt-rfc-style
-          automake
+          unixtools.nettools
+          gnumake
+          openssh
+          bash
+          sudo
           curl
           which
           act
