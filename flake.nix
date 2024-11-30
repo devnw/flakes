@@ -94,6 +94,7 @@
         ];
 
         ansiblePackages = with pkgs; [
+          openssh
           # Ansible tools
           ansible
           ansible-lint
