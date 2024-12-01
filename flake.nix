@@ -98,8 +98,7 @@
         };
         overlays = {
           default = final: prev: {
-            # Expose your overlay if needed
-            # For example, you can merge pkgs into prev
+            final = prev // pkgs;
           };
         };
         # Expose devShells if needed
